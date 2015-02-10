@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4" > 
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adView"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:text="How to use the application ©MarineForecaster"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/title_marineforcasting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txt_title"
+                android:layout_below="@+id/txt_title"
+                android:layout_marginTop="10dp"
+                android:text="Marine Weather Forecasting"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold|italic" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/title_marineforcasting"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/heading_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/title_marineforcasting"
+                android:layout_below="@+id/view1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Introduction:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txt_point1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/heading_intro"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/english_pt1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/heading_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Selecting a location:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:id="@+id/txt_point2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="It is recommended to use WiFi connection the first time the application is started in order to allow downloading initial map and data without incurring data charges.\n\nFrom the moment you load map areas for the first time on your device, there is no need for the application to re-download the same areas and zoom levels again. Therefore if you are using 3G / 4G or satellite connections, you will not have large data consumption after the first use of the application. If you need to view new areas or zoom levels of the map, data download will be incurred, but should remain reasonably low."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/heading_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Selecting a location:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txt_point3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="It is recommended to use WiFi connection the first time the application is started in order to allow downloading initial map and data without incurring data charges.\n\nFrom the moment you load map areas for the first time on your device, there is no need for the application to re-download the same areas and zoom levels again. Therefore if you are using 3G / 4G or satellite connections, you will not have large data consumption after the first use of the application. If you need to view new areas or zoom levels of the map, data download will be incurred, but should remain reasonably low."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/heading_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Selecting a location:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txt_point4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="It is recommended to use WiFi connection the first time the application is started in order to allow downloading initial map and data without incurring data charges.\n\nFrom the moment you load map areas for the first time on your device, there is no need for the application to re-download the same areas and zoom levels again. Therefore if you are using 3G / 4G or satellite connections, you will not have large data consumption after the first use of the application. If you need to view new areas or zoom levels of the map, data download will be incurred, but should remain reasonably low."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/heading_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Selecting a location:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txt_point5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="It is recommended to use WiFi connection the first time the application is started in order to allow downloading initial map and data without incurring data charges.\n\nFrom the moment you load map areas for the first time on your device, there is no need for the application to re-download the same areas and zoom levels again. Therefore if you are using 3G / 4G or satellite connections, you will not have large data consumption after the first use of the application. If you need to view new areas or zoom levels of the map, data download will be incurred, but should remain reasonably low."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14sp" />
+            
+               <TextView
+                android:id="@+id/heading_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Selecting a location:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txt_point6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="It is recommended to use WiFi connection the first time the application is started in order to allow downloading initial map and data without incurring data charges.\n\nFrom the moment you load map areas for the first time on your device, there is no need for the application to re-download the same areas and zoom levels again. Therefore if you are using 3G / 4G or satellite connections, you will not have large data consumption after the first use of the application. If you need to view new areas or zoom levels of the map, data download will be incurred, but should remain reasonably low."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14sp" />
+            
+            
+        </LinearLayout>
+
+    </ScrollView>
+    
+     <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-3533227877792822/7258842352" />
+
+
+</RelativeLayout> 

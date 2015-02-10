@@ -1,0 +1,9 @@
+D:\Android Studio Projects\MarineForecaster\app\build\intermediates\classes\debug
+D:\Android Studio Projects\MarineForecaster\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-8bf2e16e9e4635759cf8a0f84b637d61def84dbb.jar
+D:\Android Studio Projects\MarineForecaster\app\build\intermediates\pre-dexed\debug\android-zoom-view-0d49bf7898dc9ffd86fe61ae64b37d1a6d180836.jar
+D:\Android Studio Projects\MarineForecaster\app\build\intermediates\pre-dexed\debug\graphview-3.1-7df28f8d1d6aa499c8b544d30255446d5c72329e.jar
+D:\Android Studio Projects\MarineForecaster\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-82390641ebf387201eb0e8486d3262ee769c8af6.jar
+D:\Android Studio Projects\MarineForecaster\app\build\intermediates\pre-dexed\debug\classes-0482777098715d14a7c41aca6cd3768b6d692b16.jar
+D:\Android Studio Projects\MarineForecaster\app\build\intermediates\pre-dexed\debug\classes-0dfb21eeff692118dbc745a0c4890046ded0e7c7.jar
+D:\Android Studio Projects\MarineForecaster\app\build\intermediates\pre-dexed\debug\classes-b058dc88a00be06b26aca6e33d222e5768532675.jar
+D:\Android Studio Projects\MarineForecaster\app\build\intermediates\pre-dexed\debug\PdfViewer-fa11056095e85ebc131fa562de5192b91af8b1cd.jar

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4" >
+    
+      <com.google.android.gms.ads.AdView
+       xmlns:ads="http://schemas.android.com/apk/res-auto"
+       android:id="@+id/adView"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       ads:adSize="SMART_BANNER"
+       ads:adUnitId="ca-app-pub-3533227877792822/7258842352"
+       android:layout_alignParentBottom="true"
+      
+      />
+
+      <Button
+          android:id="@+id/Button01"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/button2"
+          android:layout_marginTop="15dp"
+          android:background="@drawable/gradientcorners"
+          android:onClick="howuse_click"
+          android:text="How to use"
+          android:textColor="#fefefe"
+          android:textStyle="bold" />
+
+      <ImageView
+          android:id="@+id/imageView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/Button01"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="42dp"
+          android:src="@drawable/marinetagline" />
+
+      <Button
+          android:id="@+id/Button02"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/button1"
+          android:layout_marginTop="15dp"
+          android:background="@drawable/gradientcorners"
+          android:onClick="gasstations_click"
+          android:text="Search Gas Stations"
+          android:textColor="#fefefe"
+          android:textStyle="bold" />
+
+      <Button
+          android:id="@+id/button2"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/Button02"
+          android:layout_marginTop="15dp"
+          android:background="@drawable/gradientcorners"
+          android:onClick="distance_click"
+          android:text="Calculate Distance &amp; Fuel"
+          android:textColor="#fefefe"
+          android:textStyle="bold" />
+
+      <Button
+          android:id="@+id/button1"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginTop="28dp"
+          android:background="@drawable/gradientcorners"
+          android:onClick="forcast_click"
+          android:text="Marine Weather Forecasting"
+          android:textColor="#fefefe"
+          android:textStyle="bold" />
+
+</RelativeLayout>

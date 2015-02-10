@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/GetData"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp" >
+
+    </ScrollView>
+
+ <!--   <fragment
+        android:id="@+id/fragment1"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/GetData"
+        android:layout_centerHorizontal="true"
+      />
+ -->
+
+    <TextView
+        android:id="@+id/lattitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/latEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:text="Lattitude"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lattitude"
+        android:layout_marginTop="16dp"
+        android:text="Longitude"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/GetData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/longEditText"
+        android:layout_marginTop="10dp"
+        android:onClick="clickHandler"
+        android:text="Get Data" />
+
+  <!--    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/GetData"
+        android:layout_centerHorizontal="true" />
+-->
+
+   <fragment 
+         android:id="@+id/map"
+    	android:name="com.google.android.gms.maps.SupportMapFragment"
+    	android:layout_width="match_parent"
+    	android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/GetData" />
+
+   <EditText
+       android:id="@+id/latEditText"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_marginLeft="5dp"
+       android:layout_toRightOf="@+id/longitude"
+       android:ems="10"
+       android:inputType="numberDecimal" />
+
+   <EditText
+       android:id="@+id/longEditText"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBottom="@+id/longitude"
+       android:layout_alignLeft="@+id/latEditText"
+       android:ems="10"
+       android:inputType="numberDecimal" />
+
+</RelativeLayout>

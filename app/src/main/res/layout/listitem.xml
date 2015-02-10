@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- row.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:longClickable="false" >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:clickable="false"
+             android:focusable="false"
+             android:focusableInTouchMode="false"
+             android:longClickable="false" >
+
+             <TableLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginRight="10dp"
+                 android:layout_marginTop="5dp"
+                 android:clickable="false"
+                 android:focusable="false"
+                 android:focusableInTouchMode="false"
+                 android:longClickable="false" >
+
+                 <TableRow
+                     android:id="@+id/tableRow1"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:clickable="false"
+                     android:focusable="false"
+                     android:focusableInTouchMode="false"
+                     android:fitsSystemWindows="true"
+                     android:longClickable="false" >
+
+                     <TextView
+                         android:id="@+id/CITY_CELL"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_span="3"
+                         android:clickable="false"
+                         android:focusable="false"
+                         android:focusableInTouchMode="false"
+                         android:longClickable="false"
+                         android:text="Medium Text"
+                         android:textAppearance="?android:attr/textAppearanceMedium"
+                         android:textSize="14sp"
+                         android:textStyle="bold" />
+
+                 </TableRow>
+
+                 <TableRow
+                     android:id="@+id/tableRow3"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content" >
+
+                     <TextView
+                         android:id="@+id/PHONE1_CELL"
+                         android:layout_width="fill_parent"
+                         android:layout_height="wrap_content"
+                         android:clickable="false"
+                         android:focusable="false"
+                         android:focusableInTouchMode="false"
+                         android:longClickable="false"
+                         android:text="Small Text"
+                         android:textAppearance="?android:attr/textAppearanceSmall"
+                         android:textSize="11sp" />
+                 </TableRow>
+
+                 <TableRow
+                     android:id="@+id/tableRow4"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content" >
+
+                     <TextView
+                         android:id="@+id/PHONE2_CELL"
+                         android:layout_width="300dp"
+                         android:layout_height="wrap_content"
+                         android:clickable="false"
+                         android:focusable="false"
+                         android:focusableInTouchMode="false"
+                         android:longClickable="false"
+                         android:text="Amount: 12345.00"
+                         android:textSize="11sp" />
+                 </TableRow>
+
+                 <TableRow
+                     android:id="@+id/tableRow2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:clickable="false"
+                     android:focusable="false"
+                     android:focusableInTouchMode="false"
+                     android:fitsSystemWindows="true"
+                     android:longClickable="false" >
+
+                     <TextView
+                         android:id="@+id/PHONE3_CELL"
+                         android:layout_width="fill_parent"
+                         android:layout_height="wrap_content"
+                         android:clickable="false"
+                         android:focusable="false"
+                         android:focusableInTouchMode="false"
+                         android:longClickable="false"
+                         android:singleLine="false"
+                         android:text="TextView"
+                         android:textSize="11sp" />
+
+                 </TableRow>
+
+                 <TableRow
+                     android:id="@+id/tableRow5"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content" >
+
+                     <TextView
+                         android:id="@+id/PHONE4_CELL"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="TextView"
+                         android:textSize="11sp" />
+
+                 </TableRow>
+
+             </TableLayout>
+
+         </LinearLayout>
+    
+         </LinearLayout>
+
