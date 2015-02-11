@@ -2,60 +2,60 @@
 <items version="2" >
 
     <item
-        jar="D:\Android Studio Projects\MarineForecaster\app\libs\android-zoom-view.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="8ea0253f9d7cff1661f29d4f090773471164f785">
-        <dex dex="D:\Android Studio Projects\MarineForecaster\app\build\intermediates\pre-dexed\debug\android-zoom-view-0d49bf7898dc9ffd86fe61ae64b37d1a6d180836.jar" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MarineForecaster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
-        <dex dex="D:\Android Studio Projects\MarineForecaster\app\build\intermediates\pre-dexed\debug\classes-b058dc88a00be06b26aca6e33d222e5768532675.jar" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MarineForecaster\app\libs\graphview-3.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="12c054c623caacf9db0e4b9719b3ebb0e85959aa">
-        <dex dex="D:\Android Studio Projects\MarineForecaster\app\build\intermediates\pre-dexed\debug\graphview-3.1-7df28f8d1d6aa499c8b544d30255446d5c72329e.jar" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MarineForecaster\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="D:\Android Studio Projects\MarineForecaster\app\build\intermediates\pre-dexed\debug\classes-0482777098715d14a7c41aca6cd3768b6d692b16.jar" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MarineForecaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="D:\Android Studio Projects\MarineForecaster\app\build\intermediates\pre-dexed\debug\classes-0dfb21eeff692118dbc745a0c4890046ded0e7c7.jar" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MarineForecaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="D:\Android Studio Projects\MarineForecaster\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-82390641ebf387201eb0e8486d3262ee769c8af6.jar" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MarineForecaster\app\libs\PdfViewer.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a53b4c813e4237286bd10f0c334c46e894970666">
-        <dex dex="D:\Android Studio Projects\MarineForecaster\app\build\intermediates\pre-dexed\debug\PdfViewer-fa11056095e85ebc131fa562de5192b91af8b1cd.jar" />
-    </item>
-    <item
-        jar="C:\Users\LENOVO PC\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jar="C:\Users\nirajkumar.chauhan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="D:\Android Studio Projects\MarineForecaster\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-8bf2e16e9e4635759cf8a0f84b637d61def84dbb.jar" />
+        <dex dex="D:\Personal Stuffs\MarineForecaster\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-969654378605a3bc9df1b3ad51a7c6118a486976.jar" />
+    </item>
+    <item
+        jar="D:\Personal Stuffs\MarineForecaster\app\libs\graphview-3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="12c054c623caacf9db0e4b9719b3ebb0e85959aa">
+        <dex dex="D:\Personal Stuffs\MarineForecaster\app\build\intermediates\pre-dexed\debug\graphview-3.1-891e148731140f2e78eebf46ddc6b91af4afa6f7.jar" />
+    </item>
+    <item
+        jar="D:\Personal Stuffs\MarineForecaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\Personal Stuffs\MarineForecaster\app\build\intermediates\pre-dexed\debug\classes-6abbcc33c560c4b1ff3ae726ffa1d86c60fd3f9a.jar" />
+    </item>
+    <item
+        jar="D:\Personal Stuffs\MarineForecaster\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\Personal Stuffs\MarineForecaster\app\build\intermediates\pre-dexed\debug\classes-90debc1f20583b4a0aff072a2205ddd4c207621b.jar" />
+    </item>
+    <item
+        jar="D:\Personal Stuffs\MarineForecaster\app\libs\android-zoom-view.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8ea0253f9d7cff1661f29d4f090773471164f785">
+        <dex dex="D:\Personal Stuffs\MarineForecaster\app\build\intermediates\pre-dexed\debug\android-zoom-view-2a6b267dc0a06733b35a555657609f5f1adfdd97.jar" />
+    </item>
+    <item
+        jar="D:\Personal Stuffs\MarineForecaster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="D:\Personal Stuffs\MarineForecaster\app\build\intermediates\pre-dexed\debug\classes-2c605ae3c98092f9eee9cc8f0623fcdc53c3e7cd.jar" />
+    </item>
+    <item
+        jar="D:\Personal Stuffs\MarineForecaster\app\libs\PdfViewer.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a53b4c813e4237286bd10f0c334c46e894970666">
+        <dex dex="D:\Personal Stuffs\MarineForecaster\app\build\intermediates\pre-dexed\debug\PdfViewer-9b7537cd9656d0554b752d4b18389aa8096608a5.jar" />
+    </item>
+    <item
+        jar="D:\Personal Stuffs\MarineForecaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\Personal Stuffs\MarineForecaster\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-d4c70cb9a1537cadcb13bfe9c5a40538b6a354ad.jar" />
     </item>
 
 </items>

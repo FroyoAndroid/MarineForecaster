@@ -45,7 +45,6 @@ public class CountrySelectActivity extends Activity {
 					long arg3) 
 			{
 				startActivity(new Intent(CountrySelectActivity.this,GasStationsActivity.class).putExtra("index", arg2));
-				
 			}
 		});
 	}

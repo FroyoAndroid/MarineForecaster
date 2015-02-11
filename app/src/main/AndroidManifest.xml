@@ -35,7 +35,7 @@
             android:value="@integer/google_play_services_version" />
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyCV9FJ5cPMwMoaS4tkMdZbYtq6LOSyPVtc" />
+            android:value="AIzaSyAiZPV0JJoF9XkhFWhlR3h_XOMXdmBufCk" />
         <meta-data
             android:name="android.support.UI_OPTIONS"
             android:value="splitActionBarWhenNarrow" />
