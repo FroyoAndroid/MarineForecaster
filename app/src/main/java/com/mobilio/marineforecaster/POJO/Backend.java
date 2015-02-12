@@ -79,7 +79,7 @@ public class Backend {
 
                 pois.add(poi);
 
-                Log.i("ahmed", "english Returned "+ cursor.getCount() + " rows");
+                Log.i(LOGTAG, "english Returned "+ cursor.getCount() + " rows");
             }
         }
 
