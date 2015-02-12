@@ -113,7 +113,7 @@ public class MainMenu extends Activity {
     }
 
     public void gasstations_click(View v) {
-        startActivity(new Intent(MainMenu.this, CountrySelectActivity.class));
+        startActivity(new Intent(MainMenu.this, CategorySelectActivity.class));
     }
 
     public void howuse_click(View v) {

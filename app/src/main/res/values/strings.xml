@@ -4,6 +4,13 @@
     <string name="app_name">MarineForecaster</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string-array name="categories">
+        <item>Marine Services</item>
+        <item>Restaurants and Provisions</item>
+        <item>Ports Worldwide</item>
+        <item>Boat Sliders</item>
+        <item>Gas Stations</item>
+    </string-array>
 
     <string-array name="listOptions">
         <item>English</item>

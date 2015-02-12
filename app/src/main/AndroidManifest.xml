@@ -50,11 +50,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
+        <!--<activity
             android:name="com.example.whetheralarm.PlayServicesError"
             android:label="Play Services Error"
             android:noHistory="true" >
-        </activity>
+        </activity>-->
         <activity
             android:name=".Graph"
             android:screenOrientation="portrait" >
@@ -109,6 +109,11 @@
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <!--  New Activity -->
+        <activity
+            android:name=".CategorySelectActivity"
+            android:screenOrientation="portrait" >
+        </activity>
     </application>
 
 </manifest>

@@ -58,7 +58,7 @@ public class Backend {
     }
 
     public List<POI> findAll(){
-        List<POI> pois = new ArrayList<POI>();
+        List<POI> pois = new ArrayList<>();
 
         Cursor cursor = database.query(DBHelper.TABLE_NAME,allcolumns,null, null, null, null, null, null);
 

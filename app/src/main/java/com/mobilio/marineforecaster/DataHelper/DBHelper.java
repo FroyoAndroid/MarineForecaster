@@ -20,14 +20,10 @@ public class DBHelper extends SQLiteOpenHelper {
     private String db_path;
     private SQLiteDatabase myDataBase;
 
-    public static final String TABLE_NAME = "poi";
+    public static final String TABLE_NAME = "markers";
 
-    private static String	dbname = "pointofinterest";
+    private static String dbname = "pointofinterest.sqlite";
     private static final int DATABASE_VERSION = 55;
-
-    //Greek and english
-
-    public static final String TABLE = "poi";
 
 
     public static final String COLUMN_STATE = "State";
@@ -84,6 +80,7 @@ public class DBHelper extends SQLiteOpenHelper {
     private void opendatabase() {
         //Open the database
         String mypath = db_path + dbname;
+        Log.d("Path",mypath.toString());
         myDataBase = SQLiteDatabase.openDatabase(mypath, null, SQLiteDatabase.OPEN_READWRITE);
 
 
